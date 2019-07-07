@@ -10,7 +10,7 @@ import (
 	"sync"
 	"text/template"
 
-	"./trace"
+	"github.com/naufalziyad/web-chat-application/trace"
 	"github.com/stretchr/gomniauth"
 	"github.com/stretchr/gomniauth/providers/facebook"
 	"github.com/stretchr/gomniauth/providers/github"

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/objx"
 
-	"./trace"
+	"github.com/naufalziyad/web-chat-application/trace"
 	"github.com/gorilla/websocket"
 )
 
