@@ -12,9 +12,8 @@ WORKDIR $GOPATH/src/github.com/naufalziyad/web-chat-application
 # Copy everything from the current directory to the PWD(Present Working Directory) inside the container
 COPY . .
 
-COPY go.mod . 
-
-COPY go.sum .
+# COPY go.mod . 
+# COPY go.sum .
 
 # Get dependancies - will also be cached if we won't change mod/sum
 RUN go mod download
